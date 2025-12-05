@@ -6,7 +6,7 @@ node_modules/
 # Expo
 .expo/
 dist/
-web-build/
+# web-build/ - Keep this for Vercel deployment
 expo-env.d.ts
 
 # Native
@@ -39,3 +39,6 @@ yarn-error.*
 # generated native folders
 /ios
 /android
+
+# Vercel
+.vercel
